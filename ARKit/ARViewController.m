@@ -25,7 +25,7 @@
 		return nil;
 	}
     
-	[self setWantsFullScreenLayout:NO];
+    //	[self setWantsFullScreenLayout:NO];
     
     // Defaults
     _debugMode                      = NO;
