@@ -596,8 +596,8 @@
     switch (orientation) {
         case UIDeviceOrientationLandscapeLeft:
         case UIDeviceOrientationLandscapeRight:
-            newFrame.size.width     = [[UIScreen mainScreen] applicationFrame].size.height;
-            newFrame.size.height    = [[UIScreen mainScreen] applicationFrame].size.width;
+            newFrame.size.width     = [[UIScreen mainScreen] bounds].size.height;
+            newFrame.size.height    = [[UIScreen mainScreen] bounds].size.width;
             break;
         case UIDeviceOrientationPortraitUpsideDown:
             break;
